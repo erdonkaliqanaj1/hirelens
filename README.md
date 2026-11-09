@@ -1,10 +1,11 @@
 # HireLens
 
-HireLens is a modern platform that helps companies evaluate candidates more efficiently through structured assessments and AI-assisted insights.
+HireLens is an AI-powered platform that helps job candidates practice interviews. Users can simulate real interview scenarios, receive instant feedback, and improve their performance.
 
 ## Tech Stack
 
-- Frontend: React + TypeScript + Vite (or Next.js)
-- Backend: Node.js + Express (or NestJS)
+- Frontend: React + JavaScript + Tailwind CSS
+- Backend: Node.js + Express
 - Database: PostgreSQL
-- Authentication: JWT / Clerk
+- Authentication: JWT + bcrypt
+- AI: LLM API
