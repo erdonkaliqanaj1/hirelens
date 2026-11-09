@@ -1,6 +1,14 @@
 import express from "express";
+import cors from "cors";
 
 const app = express();
+
+//Alow only the frontend origin
+app.use(
+    cors({
+        origin:"http://localhost:5173",
+    })
+);
 
 //Endpoint i thjeshte
 app.get("/", (req, res) => {
