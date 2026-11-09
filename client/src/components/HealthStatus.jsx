@@ -26,7 +26,9 @@ function HealthStatus() {
     return <p className="text-gray-500">Loading...</p>;
   }
   if (error) {
-    return <p className="text-red-500">Error: {error}</p>;
+   <p className="text-red-500">
+    Unable to connect to the server. Please try again later.
+  </p>
   }
 
   return (
@@ -36,9 +38,7 @@ function HealthStatus() {
       <p className="text-gray-600 text-sm mt-1">
         Timestamp: {new Date(status.timestamp).toLocaleString()}
       </p>
-      <p className="text-red-500">
-    Unable to connect to the server. Please try again later.
-  </p>
+      
     </div>
   );
 }
