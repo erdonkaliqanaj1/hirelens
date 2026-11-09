@@ -32,10 +32,13 @@ function HealthStatus() {
   return (
     <div className="bg-white shadow-md rounded-xl p-6 max-w-sm w-full text-center">
       <h2 className="text-xl font-semibold mb-2">Server Status</h2>
-      <p className="text-green-600 font-medium">Status:{status.status}</p>
+      <p className="text-green-600 font-medium">Status: {status.status}</p>
       <p className="text-gray-600 text-sm mt-1">
         Timestamp: {new Date(status.timestamp).toLocaleString()}
       </p>
+      <p className="text-red-500">
+    Unable to connect to the server. Please try again later.
+  </p>
     </div>
   );
 }
