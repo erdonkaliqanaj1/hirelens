@@ -1,0 +1,24 @@
+{
+  "name": "hirelens",
+  "version": "1.0.0",
+  "description": "HireLens is an AI-powered platform that helps job candidates practice interviews. Users can simulate real interview scenarios, receive instant feedback, and improve their performance.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erdonkaliqanaj1/hirelens.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/erdonkaliqanaj1/hirelens/issues"
+  },
+  "homepage": "https://github.com/erdonkaliqanaj1/hirelens#readme",
+  "devDependencies": {
+    "prettier": "^3.9.10"
+  }
+}

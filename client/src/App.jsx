@@ -1,11 +1,11 @@
-import HealthStatus from "./components/HealthStatus"
+import HealthStatus from "./components/HealthStatus";
 
-function App(){
-  return(
+function App() {
+  return (
     <div className="min-h-screen bg-gray-100 flex items-center justify-center">
-      <HealthStatus/>
+      <HealthStatus />
     </div>
   );
 }
 
-export default App
+export default App;
