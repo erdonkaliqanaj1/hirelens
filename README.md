@@ -9,3 +9,16 @@ HireLens is an AI-powered platform that helps job candidates practice interviews
 - Database: PostgreSQL
 - Authentication: JWT + bcrypt
 - AI: LLM API
+
+## Getting Started
+
+### Prerequisites
+- Node.js
+- PostgreSQL
+
+### Setup
+
+1. Clone the repository
+2. Create the database:
+   ```bash
+   psql -U postgres -c "CREATE DATABASE hirelens_dev;"
