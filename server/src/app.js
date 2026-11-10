@@ -1,5 +1,6 @@
 import express from "express";
 import cors from "cors";
+import healthRouter from "./routes/health.js";
 
 const app = express();
 
@@ -23,5 +24,8 @@ app.get("/api/health", (req, res) => {
     timestamp: new Date().toISOString(),
   });
 });
+
+//Database health route
+app.use("/api/health", healthRouter);
 
 export default app;
