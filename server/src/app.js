@@ -1,13 +1,17 @@
 import express from "express";
 import cors from "cors";
+import dotenv from "dotenv";
 import healthRouter from "./routes/health.js";
+
+dotenv.config();
 
 const app = express();
 
 // Allow only the frontend origin
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: process.env.CLIENT_URL ||
+    "http://localhost:5173",
   }),
 );
 
